@@ -1,0 +1,25 @@
+.work {
+    padding-top: 0;
+}
+
+.work__list {
+    display: flex;
+    gap: var(--indent);
+    flex-wrap: wrap;
+}
+
+.work-overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            content: '';
+            height: 70px;
+            width: 100%;
+            background-color: rgba(47, 48, 58, 0.8);
+        }
+}

@@ -1,0 +1,31 @@
+.clients__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients__link {
+    color: #afb1b8;
+}
+
+.clients__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    fill: currentColor;
+    transition: color var(--animation), border var(--animation);
+    &:hover,
+    &:focus {
+            color: #2196f3;
+            border: 1px solid #2196f3;
+        }
+}
+
+
